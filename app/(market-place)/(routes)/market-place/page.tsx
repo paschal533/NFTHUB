@@ -17,7 +17,7 @@ const MyNFTs = () => {
 
   useEffect(() => {
     fetchNFTs().then((items: any) => {
-      const filteredItems = items.filter(
+      const filteredItems = items?.filter(
         (obj: any) =>
           !obj.image.includes("oaidalleapiprodscus.blob.core.windows.net")
       );
