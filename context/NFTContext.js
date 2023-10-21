@@ -325,10 +325,12 @@ export const NFTProvider = ({ children }) => {
       const listingPrice = await contract.getListingPrice();
 
       await contract.joinGame({ value: listingPrice.toString() });
+
+      window.location.reload();
     } catch (error) {
       console.log(error);
     } finally {
-      window.reload();
+      window.location.reload();
     }
   };
 

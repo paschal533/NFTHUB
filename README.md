@@ -2,21 +2,54 @@
 
 ## Description
 
-NFTKastle is an NFT AI tool where users can mint their pictures as NFTs, list their NFTs for sale, and buy NFTs from other users. NFTHUB has other additional features which include :-
+NFTHUB is an NFT AI tool where users can mint their pictures as NFTs, list their NFTs for sale, and buy NFTs from other users. NFTHUB has other additional features which include:-
 
-- Use AI to generate images and mint it as NFT.
+- Use AI to generate images and mint them as NFT.
 - Stake their NFTs and earn rewards.
 - Draw and mint the drawing as NFT.
-- Editor to edit their pictures and use it as NFT on Hashnode, Twitter, Youtube and other social media platform.
-- Compete in a bounty by Playing game to win prizes and NFT.
+- Editor to edit their pictures and use it as NFT on Hashnode, Twitter, Youtube, and other social media platforms.
+- Compete in a bounty by Playing a game to win prizes and NFT.
 
-# Briefly describe your project and its use case.
+# How it's made
+
+## 🚧 Building the Solution
+
+The creation of our project was driven by a vision to address the limitations and quality issues prevalent in the NFT (Non-Fungible Token) space, particularly in the areas of AI and games. Here's a detailed breakdown of how we built this solution:
 
 ## ✨ Inspiration
 
-The eagerness to provide solutions to the issue of low-quality NFT projects, AI and games was a major inspiration. This idea came up because a big part of our combined interest was in the NFT utility. When more and more NFT platforms came out, we were researching existing NFT marketplaces and their limitations. We saw incredible chains that lack the NFT utility in scale, which stops them from revealing their true potential. As the crypto space evolved, and the infrastructure got improved, we decided to create an all-in-one solution that will ease the user experience of the NFTverse.
+Our project was born out of a desire to provide comprehensive solutions to the challenges faced by low-quality NFT projects, AI applications, and gaming experiences. The idea was conceived as we delved into the NFT ecosystem and observed its shortcomings. We noticed promising blockchain platforms that fell short in terms of NFT utility, preventing them from reaching their full potential.
 
-We have identified the issue of lack of quality NFT projects, AI and games, despite its advanced technology, and we thought it was because of the lack of robust NFT infrastructure. So our team has decided to develop just that - an all-in-one NFT infrastructure that combines the NFT marketplace, AI image generation, NFT minting platform, NFT Staking, NFT Editor for content creation, NFT Drawing and minting, NFT materialization service, and A bounty to win NFTs.
+As the crypto space continued to evolve and infrastructure improved, we recognized a need for an all-in-one solution that would enhance the user experience in the NFTverse. Our motivation was fueled by the belief that the lack of high-quality NFT projects, AI integration, and gaming experiences was rooted in the absence of a robust NFT infrastructure.
+
+## 🛠 Technology Stack & Tools
+
+To bring our vision to life, we employed a diverse array of technologies and tools, each serving a specific purpose in the project:
+
+- Solidity: We utilized Solidity for writing smart contracts, a fundamental component of NFTs and blockchain interactions.
+
+- Mantle Testnet: This blockchain network served as the foundation for our project, enabling the seamless operation of NFTs and related functionalities.
+
+- OpenAI: For AI-powered image generation, OpenAI was a crucial partner in our technology stack, enabling us to create visually appealing NFT assets.
+
+- Javascript (NextJs & Testing): JavaScript, in conjunction with NextJs for frontend development and testing, played a pivotal role in crafting the user interface and ensuring the reliability of our project.
+
+- Ethers: Ethers facilitated interactions with the blockchain, allowing users to seamlessly engage with the NFT marketplace and related features.
+
+- Hardhat: As a development framework, Hardhat streamlined the development process, making it more efficient and productive.
+
+- Sanity: We leveraged Sanity as a database to manage and organize project-related data, providing a structured foundation for our all-in-one NFT infrastructure.
+
+- IPFS (InterPlanetary File System): IPFS was crucial for file hosting, ensuring the availability and accessibility of NFT assets and data.
+
+## 🧩 Noteworthy Aspects
+
+While developing this project, we encountered several challenges and implemented innovative solutions. Here are some notable aspects:
+
+## All-in-One Infrastructure:
+
+Our project combines multiple facets of the NFT ecosystem, from the NFT marketplace and AI image generation to NFT minting, content creation, drawing and minting, materialization services, and a unique bounty system for winning NFTs. This all-encompassing approach aims to enhance the user experience by consolidating various NFT-related functions into one platform.
+In summary, our project is a testament to the power of collaboration between technologies, each playing a distinct role in creating a comprehensive NFT infrastructure. We aim to address the quality and utility issues in the NFT space while providing users with a seamless and enjoyable experience in the NFTverse.
 
 ## ⚖ What it does
 
@@ -64,21 +97,6 @@ We have a game and a leaderboard, you can play the game to win MNT tokens and NF
 
 - Mantle explorer (Verified): https://explorer.testnet.mantle.xyz/address/0x82761803b0AF78638Ec18f9b2F24b4811d01d235
 
-
-# Originality
-
-- This is an original work by our team. We build on top of the following tooling:
-
-## 🛠 Technology Stack & Tools
-
-- Solidity (Writing Smart Contract)
-- Mantle Testnet (Blockchain Network)
-- OpenAI (Image Generation)
-- Javascript (NextJs & Testing)
-- Ethers (Blockchain Interaction)
-- hardhat (Development Framework)
-- Sanity (Database)
-- IPFS (File hosting)
 
 ## ⛓ Blockchain Protocol used
 
