@@ -12,14 +12,10 @@ module.exports = {
     hardhat: {
       chainId: 1337,
     },
-    gnosis: {
-      url: "https://rpc.gnosischain.com",
+    mantleTestnet: {
+      url: "https://rpc.testnet.mantle.xyz/",
+      chainId: 5001,
       accounts: [process.env.PRIVATE_KEY],
-    },
-    chiado: {
-      url: "https://rpc.chiadochain.net", //Chiado RPC url
-      gasPrice: 1000000000,
-      accounts: [process.env.PRIVATE_KEY], // add the account that will deploy the contract (private key)
     },
   },
   solidity: {
@@ -32,21 +28,16 @@ module.exports = {
     },
   },
   etherscan: {
+    apiKey: process.env.API_KEY,
     customChains: [
       {
-        network: "chiado",
-        chainId: 10200,
-        urls: {
-          //Blockscout
-          apiURL: "https://blockscout.com/gnosis/chiado/api",
-          browserURL: "https://blockscout.com/gnosis/chiado",
-        },
-      },
-    ],
-    apiKey: {
-      //4) Insert your Gnosisscan API key
-      //blockscout explorer verification does not require keys
-      chiado: "P2FYYJ57B7FRIMBXRCA7KC7WIDS2FJREHU",
-    },
+          network: "mantleTest",
+          chainId: 5001,
+          urls: {
+          apiURL: "https://explorer.testnet.mantle.xyz/api",
+          browserURL: "https://explorer.testnet.mantle.xyz"
+          }
+      }
+  ]
   },
 };

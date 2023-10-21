@@ -13,7 +13,7 @@ const fetchContract = (signerOrProvider) =>
   new ethers.Contract(MarketAddress, MarketAddressABI, signerOrProvider);
 
 export const NFTProvider = ({ children }) => {
-  const nftCurrency = "XDAI";
+  const nftCurrency = "MNT";
   const [currentAccount, setCurrentAccount] = useState("");
   const [isLoadingNFT, setIsLoadingNFT] = useState(false);
   const [imageURL, setImageURL] = useState("");
@@ -53,7 +53,7 @@ export const NFTProvider = ({ children }) => {
       setIsLoadingNFT(false);
 
       const provider = new ethers.providers.JsonRpcProvider(
-        `https://rpc.chiadochain.net`
+        `https://rpc.testnet.mantle.xyz/`
       );
       const contract = fetchContract(provider);
 
@@ -355,7 +355,7 @@ export const NFTProvider = ({ children }) => {
   const getTotalStakedToken = async () => {
     try {
       const provider = new ethers.providers.JsonRpcProvider(
-        `https://rpc.chiadochain.net`
+        `https://rpc.testnet.mantle.xyz/`
       );
 
       const contract = fetchContract(provider);

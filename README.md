@@ -52,23 +52,18 @@ You will be provided with a board and color grids to draw a painting and mint it
 
 - **Play Game and win NFTs**
 
-We have a game and a leaderboard, you can play the game to win XDai tokens and NFTs. Before you join the game, you first need to deposit 0.025 xDai in the vault and the highest scorer in the game at the end of every week will be given all the xDai in the game vault and our customized NFT.
+We have a game and a leaderboard, you can play the game to win MNT tokens and NFTs. Before you join the game, you first need to deposit 0.025 MNT tokens in the vault and the highest scorer in the game at the end of every week will be given all the MNT token in the game vault and our customized NFT.
 
 ![Game](<./assets/Screenshot%20(129).png>)
 
 # Smart Contract
 
-- Network: Testnet
+- Network: Mantle Testnet
 
-- Address: 0x523b98578890F0FfBf17424384FF244a7b37D7c1
+- Address: 0x82761803b0AF78638Ec18f9b2F24b4811d01d235
 
-- gnosisscan.io: https://gnosis-chiado.blockscout.com/address/0x523b98578890F0FfBf17424384FF244a7b37D7c1
+- Mantle explorer (Verified): https://explorer.testnet.mantle.xyz/address/0x82761803b0AF78638Ec18f9b2F24b4811d01d235
 
-# Transactions
-
-- 0xab32c36910f2d30ba31e1e2dde28a64cef356863aa059ba8db7c4e8603dc34e2
-
-- 0x80d23ef40a054549353c9e3179468f2cdfc766611f0dc174e21cdc9bc479b53d
 
 # Originality
 
@@ -77,7 +72,7 @@ We have a game and a leaderboard, you can play the game to win XDai tokens and N
 ## 🛠 Technology Stack & Tools
 
 - Solidity (Writing Smart Contract)
-- Gnosis (Blockchain Network)
+- Mantle Testnet (Blockchain Network)
 - OpenAI (Image Generation)
 - Javascript (NextJs & Testing)
 - Ethers (Blockchain Interaction)
@@ -95,5 +90,3 @@ We have a game and a leaderboard, you can play the game to win XDai tokens and N
 - Demo: https://nfthub1.vercel.app/
 
 - Video: https://youtu.be/Wfvet9F_RC0
-
-- Tweet: https://x.com/dev_Paschal/status/1704238029995491747?s=20

@@ -33,10 +33,10 @@ const Stake = () => {
   const [balance, setBalance] = useState(0);
 
   const xDai = {
-    name: "xDai",
-    chainId: 10200,
+    name: "MNT",
+    chainId: 5001,
     _defaultProvider: (providers: any) =>
-      new providers.JsonRpcProvider(`https://rpc.chiadochain.net`),
+      new providers.JsonRpcProvider(`https://rpc.testnet.mantle.xyz/`),
   };
 
   useEffect(() => {
