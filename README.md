@@ -102,9 +102,3 @@ We have a game and a leaderboard, you can play the game to win MNT tokens and NF
 
 - ERC-721 standard
 - ERC-720 standard
-
-# Bonus
-
-- Demo: https://nfthub1.vercel.app/
-
-- Video: https://youtu.be/Wfvet9F_RC0
