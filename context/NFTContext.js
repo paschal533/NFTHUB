@@ -418,7 +418,7 @@ export const NFTProvider = ({ children }) => {
       toast({
         position: "top-left",
         title: "Not enough Reward",
-        description: "Get up to 0.5 XDAI and claim reward",
+        description: "Get up to 0.5 MNT and claim reward",
         status: "error",
         duration: 9000,
         isClosable: true,

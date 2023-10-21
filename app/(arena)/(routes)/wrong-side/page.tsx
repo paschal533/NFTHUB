@@ -315,7 +315,7 @@ const Wrong_side = () => {
         </div>
         <div className="ml-4 sm:ml-0 sm:p-2 p-0 sm:mt-4 mt-0 w-[400px] sm:w-full">
           <div className="bg-[#192339] rounded-md border-none p-10 mb-6 text-center text-xl text-white">
-            Vault Amount : {stakeAmount} XDAI
+            Vault Amount : {stakeAmount} MNT
           </div>
           <h1 className="text-bold text-white text-2xl">Leader Board</h1>
           {!loading ? (

@@ -32,7 +32,7 @@ const Stake = () => {
   const [activeSelect, setActiveSelect] = useState("Recently Added");
   const [balance, setBalance] = useState(0);
 
-  const xDai = {
+  const MNT = {
     name: "MNT",
     chainId: 5001,
     _defaultProvider: (providers: any) =>
@@ -74,7 +74,7 @@ const Stake = () => {
 
   const getUserBalance = async () => {
     try {
-      const provider = ethers.getDefaultProvider(xDai);
+      const provider = ethers.getDefaultProvider(MNT);
       const balance = await provider.getBalance(currentAccount);
       //@ts-ignore
       setBalance(ethers.utils.formatEther(balance.toString()));
@@ -151,7 +151,7 @@ const Stake = () => {
             className="text-nft-gray-2 border-nft-gray-1"
           >
             {fixed ? amount?.toFixed(9) : Number.parseFloat(amount).toFixed(3)}{" "}
-            xDai
+            MNT
           </Text>
         </Box>
       </Flex>

@@ -187,7 +187,7 @@ const PhotoPage = () => {
                   <Input
                     ref={initialRef}
                     type="number"
-                    placeholder="Price in xDai"
+                    placeholder="Price in MNT"
                     onChange={(e: any) =>
                       updateFormInput({ ...formInput, price: e.target.value })
                     }
